@@ -13,5 +13,8 @@ for person in people:
     
     message = 'Hello ' + name + ', happy ' + str(age) + Variable_text + ' birthday!'
     print(message)
-
+#Prints out 
+#Hello John, happy 25th birthday!
+#Hello Sarah, happy 23rd birthday!
+#Hello Lisa, happy 101st birthday!
     
