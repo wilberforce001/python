@@ -60,3 +60,33 @@ def tri_recursion(k):
     return result 
 print("\n\nRecursion Example Results")
 tri_recursion(6)
+
+def greet():
+    print("Hi there")
+    print("welcome aboard")
+
+
+greet()
+
+#parameter is the input you define for your function while an argument is the actual value for a given parameter
+
+def increment(number, by=1):
+    return number + by
+
+print(increment(2, 5))
+
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
+        
+
+#We use square brackets to create list of objects and parenthesis to create tuples(similar to a list of objects and are iterable) 
+print(multiply(3, 8, 4, 5))
+
+def save_user(**user):
+    print(user["age"])
+
+
+save_user(id=1, name="John", age=22)
